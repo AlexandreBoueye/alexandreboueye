@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/css" type="text/css">
+        <meta charset="utf-8" />
+        <title>Recipes from all around the world</title>
+    </head>
+    <h1>Welcolme</h1>
+    <body>
+    <p>Here you will find recipes from all around the world.</p>
+    <br>
+    <p>If you have any idea, suggestion, please feel free to let me know throught the form.</p>
+<!--
+    <button style="background-color: blue; font-size: 18px;">Carbonara</button>
+    <button style="background-color: red; font-size: 18px;">Rissoto</button>
+    <button style="background-color: orange; font-size: 18px;">Curry</button>-->
+
+    
+        
+        <div class="form1">
+    <form action="my_form" method="post">
+        <div>
+            <h3 class="form2"> Any advice ?</h3>
+            <label for="name"> Name :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+    </form>
+    </div>
+
+<!--Table-->
+    <div class="table">
+    <table>
+            <tr>
+                <th>List of current recipes</th>
+            </tr>
+        </thead>  
+
+        <tbody>
+            <tr>
+                <td>
+                    <button onclick="window.location.href='/recipeces/carbonara.html'" style="background-color: rgb(255, 255, 255);">Carbonara</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="window.location.href='/recipeces/rissoto.html'" style="background-color: rgb(255, 255, 255);">Rissoto</button>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="window.location.href='/recipeces/curry.html'" style="background-color: rgb(255, 255, 255);">Curry</button>
+                </td>
+            </tr>
+
+        </tbody> 
+    </table>
+</div>
+    
+    </body>
+</html>

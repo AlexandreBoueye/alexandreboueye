@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/css" type="text/css">
+        <meta charset="utf-8" />
+        <title>Recipes from all around the world</title>
+    </head>
+    <h1>Wellcolme</h1>
+    <body>
+    <p>Here you will find recipes from all around the world.</p>
+
+    <button style="background-color: blue; font-size: 18px;">Carbonara</button>
+
+    </body>
+</html>

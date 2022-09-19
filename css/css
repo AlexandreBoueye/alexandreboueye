@@ -112,3 +112,39 @@ h2 {
     font-style: bold;
     text-decoration: underline;
 }
+
+.ptccarbo {
+  height: auto;
+  width: 50px;
+
+}
+
+.Description {
+  font: 1em sans-serif;
+
+    vertical-align: right;
+    
+    height: auto;
+     
+     margin: 200 auto;
+     width: 400px;
+     
+     padding: 1em;
+     border: 1px solid #CCC;
+     border-radius: 1em;
+}
+
+.Ingredients {
+  font: 1em sans-serif;
+
+    vertical-align: left;
+    
+    height: auto;
+     
+     margin: 200 auto;
+     width: 400px;
+     
+     padding: 1em;
+     border: 1px solid #CCC;
+     border-radius: 1em;
+}

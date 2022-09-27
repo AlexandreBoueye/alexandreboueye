@@ -68,10 +68,59 @@ body {
 }
 
 /*Rissoto*/
-.pct {
-    height: auto;
-    width: 300px;
+.pctr {
+display: flex;
+justify-content: center;
 }
+
+.pctr1 {
+  height: auto;
+  width: auto;
+
+}
+
+.pctr2 {
+  height: auto;
+  width: 50px;
+  
+
+}
+
+.part1r {
+  /* Alligment */
+  margin: left;
+  width: 400px;
+  /* Borders*/
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: goldenrod;
+}
+
+.part2r {
+   
+    /* Alligment */
+    margin: left;
+    width: 400px;
+    /* Borders*/
+    padding: 3em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: goldenrod;
+  }
+
+  .part3r{
+    
+      /* Alligment */
+      margin: left;
+      width: 400px;
+      /* Borders*/
+      padding: 3em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+      background-color: goldenrod;
+    
+  }
 
 /*Curry*/
 
@@ -89,6 +138,7 @@ height: auto;
  padding: 1em;
  border: 1px solid #CCC;
  border-radius: 1em;
+ background-color:darkorange;
 }
 
 .ingredients {
@@ -104,6 +154,7 @@ height: auto;
      padding: 1em;
      border: 1px solid #CCC;
      border-radius: 1em;
+     background-color: skyblue;
 
 }
 
@@ -113,12 +164,36 @@ h2 {
     text-decoration: underline;
 }
 
-.ptccarbo {
-  height: auto;
-  width: 50px;
-
+.cont{
+  display: flex;
+  flex: 2;
+justify-content: space-between;
 }
 
+
+/*Carbo*/
+
+.h1 {
+  align-content: center;
+  vertical-align: middle;
+}
+
+#ptccarbo {
+ position: absolute;
+ top: 100px;
+ left: 30px; 
+ padding: 20px;
+}
+#h1carbo {
+  padding: bottom;
+  margin: 100px;
+}
+
+.container-1 {
+  display: flex;
+  top: 200px;
+ 
+}
 .Description {
   font: 1em sans-serif;
 
@@ -132,6 +207,7 @@ h2 {
      padding: 1em;
      border: 1px solid #CCC;
      border-radius: 1em;
+     background-color: darkorange;
 }
 
 .Ingredients {
@@ -147,4 +223,6 @@ h2 {
      padding: 1em;
      border: 1px solid #CCC;
      border-radius: 1em;
+     background-color: coral;
+     text-align: justify;
 }
